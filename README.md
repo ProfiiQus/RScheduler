@@ -22,4 +22,4 @@ RScheduler is a job scheduler and management plugin built especially for Minecra
 
 ## PlaceholderAPI hook
 
-- **%rscheduler_<job id>%** - Shows the remaining time for the job
+- **%rscheduler_{job id}%** - Shows the remaining time for the job
