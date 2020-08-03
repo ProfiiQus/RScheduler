@@ -15,8 +15,8 @@ RScheduler is a job scheduler and management plugin built especially for Minecra
 
 ## Action lists
 
-- **[delay] <seconds> ** - Delay in seconds
-- **[command] <command> ** - Executes command as the server
+- **[delay] <seconds>** - Delay in seconds
+- **[command] <command>** - Executes command as the server
 - **[broadcast] <message>** - Broadcasts server-wide message (supports color codes) 
 
 
