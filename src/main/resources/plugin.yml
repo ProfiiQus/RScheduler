@@ -1,0 +1,12 @@
+name: RScheduler
+version: ${project.version}
+main: eu.profiiqus.rscheduler.RScheduler
+api-version: 1.16
+authors: [ProfiiQus]
+description: Retrox scheduler plugin
+website: www.retrox.eu
+softdepend: [PlaceholderAPI]
+commands:
+  scheduler:
+    description: Retrox scheduler command
+    aliases: ["rsched", "sched"]

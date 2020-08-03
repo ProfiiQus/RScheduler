@@ -1,0 +1,28 @@
+timer: 1
+
+jobs:
+    example_cron:
+        repeating-time: 30 # repeating time in seconds
+        remaining: 0
+        running: false
+        action-list:
+            - "[command] say an executed command every 30s"
+            - "[delay] 5"
+            - "[broadcast] &c&lThis gets run 5 seconds later"
+
+messages:
+    not-enough-permissions: "Not enough permissions"
+    job-list: "&8[&3rScheduler&8] &fJobs: {JOBS}"
+    job-start-usage: "&8[&3rScheduler&8] &fJob start usage: &b/scheduler start <job id>"
+    job-start-success: "&8[&3rScheduler&8] &fJob &b{JOB} &fsuccessfully started"
+    job-stop-usage: "&8[&3rScheduler&8]  &fJob start usage: &b/scheduler stop <job id>"
+    job-stop-success: "&8[&3rScheduler&8] &fJob &b{JOB} &fsuccessfully stopped"
+    job-show-usage: "&8[&3rScheduler&8] &fJob show usage: &b/scheduler show <job id>"
+    job-unknown: "&8[&3rScheduler&8] &fJob &b{JOB} &fdoes not exist."
+    job-show:
+        - "&r"
+        - "&3Job name: &f{NAME}"
+        - "&3Running: &f{RUNNING}"
+        - "&3Remaining: &f{REMAINING}"
+        - "&3Repeating time: &f{REPEATING}"
+        - "&r"
